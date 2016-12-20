@@ -1,0 +1,23 @@
+.elevated {
+    background: $elevated-default-bg;
+    border: 1px solid $primary-border-color;
+    box-shadow: 0 1px 1px $elevated-shadow-color;
+    margin-bottom: $margin-md;
+    padding: $margin-md;
+
+    .heading,
+    .heading-list {
+        margin: 0;
+        margin-bottom: $margin-sm;
+    }
+
+    .heading-list {
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}

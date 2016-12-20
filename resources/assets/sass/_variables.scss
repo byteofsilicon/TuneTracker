@@ -1,0 +1,48 @@
+
+$primary-color: #fff;
+
+// Body
+$body-bg: #f5f8fa;
+
+// Margin
+$margin-base: 22px;
+$margin-sm: $margin-base / 2;
+$margin-md: $margin-base;
+
+// Borders
+$primary-border-color: darken($body-bg, 10%);
+$list-group-border: $primary-border-color;
+$navbar-default-border: $primary-border-color;
+$panel-default-border: $primary-border-color;
+$panel-inner-border: $primary-border-color;
+
+// Brands
+$brand-primary: #3097D1;
+$brand-info: #8eb4cb;
+$brand-success: #2ab27b;
+$brand-warning: #cbb956;
+$brand-danger: #bf5329;
+
+// Typography
+$font-family-sans-serif: "Raleway", sans-serif;
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-default-bg: $primary-color;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Inputs
+$input-border: lighten($text-color, 40%);
+$input-border-focus: lighten($brand-primary, 25%);
+$input-color-placeholder: lighten($text-color, 30%);
+
+// Panels
+$panel-default-heading-bg: $primary-color;
+
+// Elevated
+$elevated-default-bg: $primary-color;
+$elevated-shadow-color: darken($primary-border-color, 20%);
